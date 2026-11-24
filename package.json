@@ -1,0 +1,21 @@
+{
+  "name": "maccluster-os",
+  "version": "1.0.0",
+  "description": "Automated Dual-Mac Local AI Cluster over 40Gbps Thunderbolt Bridge with Instant Failover",
+  "main": "src/proxy.js",
+  "scripts": {
+    "test": "node test/cluster.test.js",
+    "start": "node src/proxy.js"
+  },
+  "keywords": [
+    "mac-mini",
+    "m4",
+    "ollama",
+    "thunderbolt",
+    "ai-cluster",
+    "local-llm",
+    "failover"
+  ],
+  "author": "GenZ Innovations LLC",
+  "license": "MIT"
+}
